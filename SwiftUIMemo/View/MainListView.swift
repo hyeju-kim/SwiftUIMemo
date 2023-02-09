@@ -20,7 +20,7 @@ struct MainListView: View {
                 }label: {
                     MemoCell(memo: memo)
                 }
-                
+               // .navigationViewStyle(.stack)
             }
             .listStyle(.plain)
             .navigationTitle("내 메모")

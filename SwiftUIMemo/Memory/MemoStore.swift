@@ -22,7 +22,7 @@ class MemoStore: ObservableObject {
         list.insert(Memo(content: memo), at: 0)
     }
     
-    func upadata(memo: Memo?, content: String) {
+    func upadate(memo: Memo?, content: String) {
         guard let memo = memo else {
             return
         }
