@@ -14,14 +14,18 @@ struct MainListView: View {
     
     var body: some View {
         NavigationView {
-            List(store.list) { memo in
-                NavigationLink {
-                    DetailView(memo: memo)
-                }label: {
-                    MemoCell(memo: memo)
+            List {
+                ForEach(store.list) { memo in
+                    NavigationLink {
+                        DetailView(memo: memo)
+                    }label: {
+                        MemoCell(memo: memo)
+                    }
+                     
                 }
-               // .navigationViewStyle(.stack)
+                .onDelete(perform: store.delete)
             }
+            
             .listStyle(.plain)
             .navigationTitle("내 메모")
             .toolbar {
@@ -35,7 +39,7 @@ struct MainListView: View {
                 ComposeView()
             }
         }
-        
+        .navigationViewStyle(.stack)
     }
 }
 
