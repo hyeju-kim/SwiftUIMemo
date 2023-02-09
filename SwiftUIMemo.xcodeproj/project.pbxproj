@@ -10,9 +10,9 @@
 		D35EE95F29951E100082E1DB /* SwiftUIMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EE95E29951E100082E1DB /* SwiftUIMemoApp.swift */; };
 		D35EE96129951E100082E1DB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EE96029951E100082E1DB /* Persistence.swift */; };
 		D35EE96429951E100082E1DB /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D35EE96229951E100082E1DB /* SwiftUIMemo.xcdatamodeld */; };
-		D35EE96629951E100082E1DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EE96529951E100082E1DB /* ContentView.swift */; };
 		D35EE96829951E110082E1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35EE96729951E110082E1DB /* Assets.xcassets */; };
 		D35EE96C29951E110082E1DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35EE96B29951E110082E1DB /* Preview Assets.xcassets */; };
+		D35EE97529951F1D0082E1DB /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EE97429951F1D0082E1DB /* MainListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		D35EE95E29951E100082E1DB /* SwiftUIMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMemoApp.swift; sourceTree = "<group>"; };
 		D35EE96029951E100082E1DB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D35EE96329951E100082E1DB /* SwiftUIMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIMemo.xcdatamodel; sourceTree = "<group>"; };
-		D35EE96529951E100082E1DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D35EE96729951E110082E1DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D35EE96929951E110082E1DB /* SwiftUIMemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIMemo.entitlements; sourceTree = "<group>"; };
 		D35EE96B29951E110082E1DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D35EE97429951F1D0082E1DB /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +56,13 @@
 		D35EE95D29951E100082E1DB /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
-				D35EE95E29951E100082E1DB /* SwiftUIMemoApp.swift */,
-				D35EE96029951E100082E1DB /* Persistence.swift */,
-				D35EE96529951E100082E1DB /* ContentView.swift */,
+				D35EE97729951F860082E1DB /* Memory */,
+				D35EE97629951F750082E1DB /* CoreData */,
 				D35EE96729951E110082E1DB /* Assets.xcassets */,
-				D35EE96929951E110082E1DB /* SwiftUIMemo.entitlements */,
-				D35EE96229951E100082E1DB /* SwiftUIMemo.xcdatamodeld */,
+				D35EE95E29951E100082E1DB /* SwiftUIMemoApp.swift */,
+				D35EE97429951F1D0082E1DB /* MainListView.swift */,
 				D35EE96A29951E110082E1DB /* Preview Content */,
+				D35EE96929951E110082E1DB /* SwiftUIMemo.entitlements */,
 			);
 			path = SwiftUIMemo;
 			sourceTree = "<group>";
@@ -73,6 +73,22 @@
 				D35EE96B29951E110082E1DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D35EE97629951F750082E1DB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D35EE96029951E100082E1DB /* Persistence.swift */,
+				D35EE96229951E100082E1DB /* SwiftUIMemo.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D35EE97729951F860082E1DB /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35EE96429951E100082E1DB /* SwiftUIMemo.xcdatamodeld in Sources */,
+				D35EE97529951F1D0082E1DB /* MainListView.swift in Sources */,
 				D35EE95F29951E100082E1DB /* SwiftUIMemoApp.swift in Sources */,
-				D35EE96629951E100082E1DB /* ContentView.swift in Sources */,
 				D35EE96129951E100082E1DB /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
