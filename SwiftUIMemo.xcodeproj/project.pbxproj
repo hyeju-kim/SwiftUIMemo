@@ -17,6 +17,7 @@
 		D35EE97B2995209C0082E1DB /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EE97A2995209C0082E1DB /* MemoStore.swift */; };
 		D35EE97E29952FEF0082E1DB /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EE97D29952FEF0082E1DB /* MemoCell.swift */; };
 		D35EE9802995306C0082E1DB /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EE97F2995306C0082E1DB /* ComposeView.swift */; };
+		D35EE983299548360082E1DB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EE982299548360082E1DB /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D35EE97A2995209C0082E1DB /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		D35EE97D29952FEF0082E1DB /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		D35EE97F2995306C0082E1DB /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		D35EE982299548360082E1DB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				D35EE97429951F1D0082E1DB /* MainListView.swift */,
 				D35EE97D29952FEF0082E1DB /* MemoCell.swift */,
 				D35EE97F2995306C0082E1DB /* ComposeView.swift */,
+				D35EE982299548360082E1DB /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35EE97E29952FEF0082E1DB /* MemoCell.swift in Sources */,
+				D35EE983299548360082E1DB /* DetailView.swift in Sources */,
 				D35EE96429951E100082E1DB /* SwiftUIMemo.xcdatamodeld in Sources */,
 				D35EE97B2995209C0082E1DB /* MemoStore.swift in Sources */,
 				D35EE97529951F1D0082E1DB /* MainListView.swift in Sources */,
