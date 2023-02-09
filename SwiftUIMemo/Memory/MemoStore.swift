@@ -12,9 +12,9 @@ class MemoStore: ObservableObject {
     
     init() {
         list = [
-            Memo(content: "Hello", insertData: Data.now),
-            Memo(content: "Awesome", insertData: Data.now.addingTimeInterval(3600 * -24)),
-            Memo(content: "SwiftUI", insertData: Data.now.addingTimeInterval(3600 * -48))
+            Memo(content: "Hello", insertDate: Date.now),
+            Memo(content: "Awesome", insertDate: Date.now.addingTimeInterval(3600 * -24)),
+            Memo(content: "SwiftUI", insertDate: Date.now.addingTimeInterval(3600 * -48))
         ]
     }
     
